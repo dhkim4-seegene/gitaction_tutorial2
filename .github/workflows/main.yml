@@ -36,6 +36,5 @@ jobs:
         run: |
           echo Add other actions to build,
           echo test, and deploy your project.
-	  # Flake8
-	  - name: flake8 Lint
+      - name: flake8
         uses: py-actions/flake8@v1
